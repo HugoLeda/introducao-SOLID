@@ -8,8 +8,8 @@ class ListAllUsersController {
   handle(request: Request, response: Response): Response {
     try {
       const { user_id } = request.params
-      const user = this.listAllUsersUseCase.execute({user_id})
-      return response.json(user)
+      const users = this.listAllUsersUseCase.execute({user_id})
+      return response.json(users)
     } catch (err) {
       return response.status(400).json({ error: err })
     }

@@ -1,0 +1,11 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Api documentation",
+    "version": "1.0.0",
+    "contact": {
+      "e-mail": "joaohugok4@gmail.com",
+      "github": "hugoleda"
+    }
+  }
+}
